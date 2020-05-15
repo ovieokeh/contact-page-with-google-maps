@@ -1,0 +1,44 @@
+.info {
+  text-align: left;
+  padding: 20px;
+  background-color: var(--main-green);
+  color: var(--white);
+}
+
+.info-h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+}
+
+.info-details-container {
+  margin: 40px 0;
+}
+
+.info-detail {
+  font-weight: 600;
+}
+
+.info-icons-container {
+  display: flex;
+  width: 100%;
+}
+
+.info-icon {
+  font-size: 3rem;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 699px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+  }
+
+  .info-detail {
+    line-height: 2;
+  }
+}

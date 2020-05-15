@@ -1,0 +1,11 @@
+.disclaimer {
+  padding: 20px 40px;
+  text-align: center;
+}
+
+@media screen and (min-width: 799px) {
+  .disclaimer-p {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}

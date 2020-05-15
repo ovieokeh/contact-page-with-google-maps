@@ -1,0 +1,32 @@
+.map {
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.map-h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.google-map {
+  width: 100%;
+  height: 60vh;
+}
+
+@media screen and (min-width: 799px) {
+  .map {
+    padding: 20px 0;
+    margin-top: calc(100vh - 475px);
+    margin-top: 400px;
+  }
+
+  .map-h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+}
