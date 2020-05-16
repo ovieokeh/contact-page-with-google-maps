@@ -18,6 +18,10 @@ code {
     monospace;
 }
 
+.App {
+  position: relative;
+}
+
 :root {
   --main-blue: #00253a;
   --main-green: #2e933c;
